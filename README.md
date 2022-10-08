@@ -17,7 +17,7 @@
 
 
 2. Building and running sample Springboot API with Mysql DB
-   1. Modify application.properties with the actual Mysql host
+   1. Modify **application.properties** with the actual Mysql host
    2. Build Docker image for Springboot with Mysql Demo 
       * docker build -t springbootmysqlub:latest .
    3. Run Docker Image
