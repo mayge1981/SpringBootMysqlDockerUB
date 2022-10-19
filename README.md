@@ -21,7 +21,7 @@
    2. Build Docker image for Springboot with Mysql Demo 
       * docker build -t springbootmysqlub:latest .
    3. Run Docker Image
-      * docker run --name springbootmysql -p 8080:8080 springbootmysqlub:latest
+      * docker run --name springbootmysql -p 8081:8080 springbootmysqlub:latest
    4. Access API
-      * http://localhost:8080/test
-      * http://localhost:8080/getUserInfo?username=user01
+      * http://localhost:8081/test
+      * http://localhost:8081/getUserInfo?username=user01
