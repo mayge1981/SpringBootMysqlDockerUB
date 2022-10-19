@@ -23,5 +23,5 @@
    3. Run Docker Image
       * docker run --name springbootmysql -p 8081:8080 springbootmysqlub:latest
    4. Access API
-      * http://<docker ip address>:8081/test
-      * http://<docker ip address>:8081/getUserInfo?username=user01
+      * http://docker_ip_address:8081/test
+      * http://docker_ip_address:8081/getUserInfo?username=user01
